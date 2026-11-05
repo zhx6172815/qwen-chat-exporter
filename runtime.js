@@ -1,6 +1,6 @@
 (()=>{
 ;
-if(globalThis.__gptChatExporter?.version==="0.1.0"&&globalThis.__gptChatExporter?.product==="qwen")return;
+if(globalThis.__gptChatExporter?.version==="0.1.1"&&globalThis.__gptChatExporter?.product==="qwen")return;
 ;
 globalThis.__gptChatExporter?.dispose();
 ;
@@ -10,7 +10,7 @@ const printStyles=":root {\n  color-scheme: light;\n  color: #172927;\n  font: 1
 ;
 const languageStyles=".language-control { margin: 0 0 14px; font: 13px/1.5 \"Segoe UI\", \"Microsoft YaHei\", \"Yu Gothic\", sans-serif; color: #173d35; }\n.language-button { min-height: 32px; padding: 5px 10px; border: 1px solid #b9cec6; border-radius: 8px; background: #fff; color: #245146; font: inherit; cursor: pointer; }\n.language-panel { padding: 14px; margin: 8px 0; background: #f2f8f5; border: 1px solid #c7dcd3; border-radius: 10px; max-width: 440px; }\n.language-panel p { margin: 0 0 8px; }\n.language-title { font-weight: 600; }\n.language-note { font-size: 12px; color: #48675e; }\n.language-error { color: #ae3027; font-size: 12px; }\n.language-choices { display: flex; flex-wrap: wrap; gap: 6px; }\n.language-choices button { min-height: 36px; padding: 6px 12px; border: 1px solid #b9cec6; border-radius: 8px; background: white; color: #245146; font: inherit; cursor: pointer; }\n.language-choices button[aria-pressed=\"true\"] { border-color: #145d50; background: #e1f3eb; }\n.language-control button:focus-visible { outline: 2px solid #2869b5; outline-offset: 2px; }\n.language-control [hidden], [hidden] { display: none !important; }\nbody > .language-control { padding: 12px 20px 0; margin-bottom: 0; }\nbody[data-first-language] > header, body[data-first-language] > main, body[data-first-language] > footer { display: none; }\nbody[data-first-language] { min-height: 205px; }\nbody[data-first-language] .language-button { display: none; }\n@media print { .language-control { display: none !important; } }";
 ;
-globalThis.AI_EXPORTER_BUILD=Object.freeze({"product":"qwen","edition":"community","version":"0.1.0"});
+globalThis.AI_EXPORTER_BUILD=Object.freeze({"product":"qwen","edition":"community","version":"0.1.1"});
 ;
 const AI_PROVIDERS=Object.freeze({"qwen":{name:"Qwen",hosts:["chat.qwen.ai"],path:/^\/c\/([\w-]+)(?:\/|$)/,status:"experimental"}});
 function detectConversation(input, restrict = globalThis.AI_EXPORTER_BUILD?.product || "all") {

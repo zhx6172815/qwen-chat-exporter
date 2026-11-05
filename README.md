@@ -8,7 +8,7 @@
 > Beta: new platforms are fixture-tested, with live-account validation pending. Incomplete history is rejected.
 > ベータ版：新サービスは模擬データで検証済みですが、実アカウントでの検証は未完了です。
 
-[下载 / Downloads / ダウンロード](https://github.com/zhx6172815/qwen-chat-exporter/releases/tag/v0.1.0-beta.1) · [隐私 / Privacy](PRIVACY.md) · [产品目录 / Catalog](https://github.com/zhx6172815/ai-chat-exporter#products)
+[下载 / Downloads / ダウンロード](https://github.com/zhx6172815/qwen-chat-exporter/releases/tag/v0.1.1-beta.1) · [隐私 / Privacy](PRIVACY.md) · [产品目录 / Catalog](https://github.com/zhx6172815/ai-chat-exporter#products)
 
 ## 中文
 

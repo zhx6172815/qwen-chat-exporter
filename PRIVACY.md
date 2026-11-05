@@ -19,3 +19,11 @@ Language preferences are stored locally. Conversion snapshots stay in source-tab
 ユーザーの操作に応じて、AIサイトの既存のログイン状態で選択した会話を取得し、ブラウザー内でファイルを生成します。開発者サーバーへ会話や認証情報を送信せず、ブラウザーアカウントを読み取りません。会員・決済・広告・アクセス解析サービスと出力回数制限はありません。
 
 表示言語はローカルに保存します。形式変換の一時データは元のタブ内で最大10分間保持し、ページを閉じると失われます。JSONには会話の元データやリソース参照が含まれる場合があります。ダウンロードしたファイルはユーザー自身で管理してください。単独版の権限は対象サービスのドメインに限定し、統合版は操作時のactiveTabと対応サービスの確認を使用します。
+
+## Firefox authentication disclosure
+
+Firefox安装时会明确请求认证信息使用同意。扩展仅在用户点击后把现有AI网站的登录凭据发送给该AI网站自身，用于读取所选历史；不发送给开发者服务器。拒绝同意时可取消安装。
+
+Firefox requires consent for authentication information. Existing AI-site credentials go only to the same service for the explicitly requested history. They are never sent to a developer service.
+
+Firefoxでは認証情報の利用への同意を表示します。既存のAIサイトの認証情報は、ユーザーが選択した履歴を取得するため同じサービスだけに送信し、開発者サーバーには送信しません。

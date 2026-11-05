@@ -1,7 +1,7 @@
 # Reviewer instructions
 
 Product: Qwen Chat Exporter
-Version: 0.1.0
+Version: 0.1.1
 Status: BETA — real-account validation pending; not marked store-ready
 
 Single purpose: export the user-selected saved conversation to local PDF/Markdown/TXT/JSON. The extension itself performs the export; it does not redirect users to another extension. Target hosts: chat.qwen.ai.

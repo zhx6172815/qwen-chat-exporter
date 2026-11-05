@@ -1,6 +1,6 @@
 {
   "product": "qwen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "price": "free",
   "category": "Productivity",
   "singlePurpose": "Export the user-selected saved AI conversation to local files.",
@@ -31,5 +31,6 @@
   },
   "storeSubmitted": false,
   "reviewReady": false,
-  "actualPlatformAcceptance": "pending real signed-in account validation"
+  "actualPlatformAcceptance": "pending real signed-in account validation",
+  "authenticationHandling": "Existing AI-service session credentials are transmitted only to that same service to read user-requested history; Firefox declares required authenticationInfo and install-time consent."
 }
