@@ -2,7 +2,7 @@
   "publisher": "zhx6172815",
   "product": "qwen",
   "repo": "qwen-chat-exporter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "edition": "free",
   "beta": true,
   "stores": {

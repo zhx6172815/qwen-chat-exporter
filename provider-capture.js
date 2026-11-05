@@ -2,6 +2,7 @@ async function collectConversation(expectedId, signal, onProgress = () => {}) {
   const source = detectConversation(location.href);
   if (!source || source.id !== expectedId) throw aiFailure("providerLocation");
   if (source.provider === "chatgpt") return collectChatGPTConversation(expectedId, signal, onProgress);
+  if (source.provider === "gemini") return collectGeminiConversation(source, signal, onProgress);
   let pages = 0;
   const report = (stage, extra = {}) => onProgress({stage, pages, count: 0, ...extra});
   const check = () => {

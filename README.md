@@ -1,4 +1,11 @@
-# Qwen Chat Exporter · 聊天记录导出器 · 会話エクスポーター
+# Qwen Chat Exporter
+
+A free community project with public source for exporting, downloading and backing up Qwen conversations and messages. PDF printing, Markdown, plain TXT and JSON; Chinese, English and Japanese interfaces; no extension account.
+
+> Experimental beta: fixture-tested; real signed-in platform validation is pending. Export stops when complete history cannot be verified.
+
+[Downloads / 下载 / ダウンロード](https://github.com/zhx6172815/qwen-chat-exporter/releases) · [Privacy / 隐私](PRIVACY.md)
+
 
 **免费、无水印、不限导出次数、无需扩展账号。**
 **Free, no watermark, no export quota, no extension account.**
@@ -8,7 +15,7 @@
 > Beta: new platforms are fixture-tested, with live-account validation pending. Incomplete history is rejected.
 > ベータ版：新サービスは模擬データで検証済みですが、実アカウントでの検証は未完了です。
 
-[下载 / Downloads / ダウンロード](https://github.com/zhx6172815/qwen-chat-exporter/releases/tag/v0.1.1-beta.1) · [隐私 / Privacy](PRIVACY.md) · [产品目录 / Catalog](https://github.com/zhx6172815/ai-chat-exporter#products)
+[下载 / Downloads / ダウンロード](https://github.com/zhx6172815/qwen-chat-exporter/releases/tag/v0.1.2-beta.1) · [隐私 / Privacy](PRIVACY.md) · [产品目录 / Catalog](https://github.com/zhx6172815/ai-chat-exporter#products)
 
 ## 中文
 
