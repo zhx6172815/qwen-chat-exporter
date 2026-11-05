@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Qwen Chat Exporter · 聊天记录导出器（测试版）"
+  },
+  "extensionDescription": {
+    "message": "免费导出和下载Qwen对话、聊天记录与消息，支持PDF、Markdown、TXT、JSON。无水印、不限次数。测试版。"
+  }
+}

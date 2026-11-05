@@ -1,0 +1,38 @@
+{
+  "publisher": "zhx6172815",
+  "product": "qwen",
+  "repo": "qwen-chat-exporter",
+  "version": "0.1.0",
+  "edition": "free",
+  "beta": true,
+  "stores": {
+    "360": {
+      "status": "not_submitted",
+      "listingUrl": null
+    },
+    "chrome": {
+      "status": "not_submitted",
+      "listingUrl": null
+    },
+    "edge": {
+      "status": "not_submitted",
+      "listingUrl": null
+    },
+    "firefox": {
+      "status": "not_submitted",
+      "listingUrl": null
+    },
+    "opera": {
+      "status": "not_submitted",
+      "listingUrl": null
+    },
+    "whale": {
+      "status": "not_submitted",
+      "listingUrl": null
+    },
+    "qq": {
+      "status": "not_submitted",
+      "listingUrl": null
+    }
+  }
+}

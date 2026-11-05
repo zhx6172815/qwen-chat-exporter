@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Qwen Chat Exporter — Beta"
+  },
+  "extensionDescription": {
+    "message": "Save Qwen conversations and messages as PDF, Markdown, TXT or JSON. Free, no watermark or quota. Beta."
+  }
+}

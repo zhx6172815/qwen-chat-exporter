@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light;
+  color: #172927;
+  font: 15px/1.7 "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: #edf3f1;
+}
+
+body { margin: 0; }
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px max(20px, calc((100vw - 840px) / 2));
+  border-bottom: 1px solid #c4d9d3;
+  background: #f7faf9;
+}
+
+.toolbar strong, .toolbar span { display: block; }
+.toolbar span { color: #486360; font-size: 12px; }
+.actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.hint { max-width: 840px; margin: 18px auto; padding-inline: 20px; font-size: 13px; }
+[hidden] { display: none !important; }
+button {
+  background: #145d50;
+  color: #fff;
+  padding: 8px 14px;
+  border: 1px solid #145d50;
+  border-radius: 8px;
+  font: inherit;
+  cursor: pointer;
+}
+button:focus-visible { outline: 2px solid #215aab; outline-offset: 2px; }
+button:disabled { opacity: .55; cursor: default; }
+
+.paper {
+  box-sizing: border-box;
+  max-width: 840px;
+  margin: 26px auto;
+  padding: 38px clamp(18px, 5vw, 56px);
+  background: white;
+  border: 1px solid #d2e0dc;
+  overflow-wrap: anywhere;
+}
+.paper > h1 { font-size: 27px; line-height: 1.3; margin: 0 0 7px; }
+.source { margin: 0 0 24px; font-size: 11px; color: #486360; }
+.message { border-top: 1px solid #a8c1ba; margin: 20px 0 0; padding: 12px 0 0; }
+.message > h2 { font-size: 13px; color: #155b50; margin: 0 0 6px; }
+.message-body > :first-child, .message-body p:first-child { margin-top: 0; }
+.message-body > :last-child, .message-body p:last-child { margin-bottom: 0; }
+pre, code, .formula { font-family: Consolas, "Microsoft YaHei", monospace; }
+pre { white-space: pre-wrap; padding: 8px 10px; border: 1px solid #c4d9d3; }
+a { color: #145d50; }
+blockquote { margin-inline: 0; padding-inline: 12px; border-inline-start: 3px solid #a8c1ba; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 4px 8px; text-align: start; border: 1px solid #a8c1ba; }
+
+@page { size: A4; margin: 15mm; }
+@media print {
+  :root { background: white; font-size: 10.5pt; }
+  .toolbar, .hint { display: none; }
+  .paper { max-width: none; margin: 0; padding: 0; border: 0; }
+  .paper > h1 { font-size: 19pt; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid; }
+  tr { break-inside: avoid; }
+}

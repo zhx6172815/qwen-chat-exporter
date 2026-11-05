@@ -1,0 +1,35 @@
+:host { all: initial; color-scheme: light; font: 14px/1.6 "Segoe UI", "Microsoft YaHei", sans-serif; }
+dialog {
+  width: min(440px, calc(100vw - 40px)); box-sizing: border-box;
+  max-height: calc(100dvh - 32px); overflow: auto;
+  padding: 28px; border: 1px solid #d7e5e0; border-radius: 18px;
+  background: #fff; color: #173d35; font: inherit;
+}
+dialog::backdrop { background: rgba(5, 18, 16, .48); }
+.heading { display: flex; align-items: center; gap: 12px; padding-right: 18px; }
+.symbol {
+  display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px;
+  background: #e4f5ee; color: #145d50; font-size: 23px; flex: none;
+}
+h2 { margin: 0; font-size: 21px; line-height: 1.3; }
+p { margin: 4px 0 0; color: #48675e; }
+.close {
+  position: absolute; top: 12px; right: 12px; border: 0; padding: 2px 8px;
+  min-height: 30px; font-size: 22px; background: transparent; color: #48675e;
+}
+progress { width: 100%; height: 8px; margin: 24px 0 8px; accent-color: #168565; }
+progress::-webkit-progress-bar { background: #e9f0ed; border-radius: 8px; }
+progress::-webkit-progress-value { background: #168565; border-radius: 8px; }
+.status { min-height: 46px; margin: 12px 0; overflow-wrap: anywhere; }
+.meta { font-size: 12px; color: #5c746d; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+button {
+  min-height: 40px; padding: 8px 13px; border: 1px solid #b9cec6; border-radius: 8px;
+  background: white; color: #245146; font: inherit; cursor: pointer;
+}
+button.primary { background: #145d50; color: white; border-color: #145d50; }
+button:hover { filter: brightness(.96); }
+button:focus-visible { outline: 2px solid #2869b5; outline-offset: 2px; }
+button:disabled { opacity: .5; cursor: default; }
+.error { color: #ae3027; }
+[hidden] { display: none !important; }

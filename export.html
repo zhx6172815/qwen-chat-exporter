@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>完整对话导出</title>
+  <link rel="stylesheet" href="print.css">
+  <link rel="stylesheet" href="language.css">
+  <script src="product.js" defer></script>
+  <script src="providers.js" defer></script>
+  <script src="provider-ui.js" defer></script>
+  <script src="language.js" defer></script>
+  <script src="vendor/marked.js" defer></script>
+  <script src="vendor/purify.js" defer></script>
+  <script src="capture.js" defer></script>
+  <script src="formats.js" defer></script>
+  <script src="provider-model.js" defer></script>
+  <script src="export.js" defer></script>
+</head>
+<body>
+  <header class="toolbar">
+    <div><strong>转换其他格式</strong><span id="status" role="status" aria-live="polite">准备打开已有记录…</span></div>
+    <div class="actions">
+      <button type="button" id="cancel">取消</button>
+      <button type="button" id="retry" hidden>重新读取</button>
+      <button type="button" data-format="md" disabled>Markdown</button>
+      <button type="button" data-format="txt" disabled>TXT</button>
+      <button type="button" data-format="json" disabled>JSON</button>
+      <button type="button" id="print" disabled>打印 / 保存 PDF</button>
+    </div>
+  </header>
+  <p class="hint">使用刚才已读取的完整记录，可在此保存为其他格式。打开完成前请保持原聊天标签页开启。</p>
+  <main id="conversation" class="paper" hidden></main>
+</body>
+</html>

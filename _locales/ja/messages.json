@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Qwen Chat Exporter · 会話エクスポーター（ベータ）"
+  },
+  "extensionDescription": {
+    "message": "Qwenの会話履歴・メッセージをPDF、Markdown、TXT、JSONで保存・ダウンロード。無料・回数制限なし。ベータ版。"
+  }
+}

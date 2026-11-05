@@ -1,0 +1,35 @@
+{
+  "product": "qwen",
+  "version": "0.1.0",
+  "price": "free",
+  "category": "Productivity",
+  "singlePurpose": "Export the user-selected saved AI conversation to local files.",
+  "homepage": "https://github.com/zhx6172815/qwen-chat-exporter",
+  "privacyUrl": "https://github.com/zhx6172815/qwen-chat-exporter/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/zhx6172815/qwen-chat-exporter/issues",
+  "locales": {
+    "zh_CN": {
+      "name": "Qwen Chat Exporter · 聊天记录导出器（测试版）",
+      "summary": "免费导出和下载Qwen完整对话、聊天记录与消息，支持PDF、Markdown、TXT、JSON，无水印、不限次数。",
+      "description": "Qwen Chat Exporter 用于将自己有权访问的一段已保存对话导出、下载、保存和备份到本机。\n\n功能：读取完整历史而非仅当前页面可见内容；页内进度弹窗；PDF打印、Markdown、纯文本TXT和JSON；已读取记录的格式转换；中文、English、日本語界面。\n\n免费、无水印、不限次数，无需注册扩展账号。文件在浏览器中生成，不上传到开发者服务器。图片和附件仅保留可识别的文字或引用，不打包原始二进制文件。\n\n开发测试版：新增平台适配尚需真实账号验收，无法确认完整历史时停止导出。提交商店前必须完成真实账号验收。"
+    },
+    "en": {
+      "name": "Qwen Chat Exporter — Beta",
+      "summary": "Export and download Qwen conversations and messages as PDF, Markdown, TXT or JSON. Free, no watermark or quota.",
+      "description": "Save your selected Qwen conversation locally for reading and backup. The extension fetches complete history rather than scraping only messages visible on the screen, displays progress in the chat page, and converts fetched records without another request.\n\nExport PDF through browser printing, Markdown, plain TXT or JSON. Chinese, English and Japanese interfaces are included. All current features are free, with no watermark, quota or extension account. Chat contents are not uploaded to a developer server. Original image and attachment binaries are not bundled.\n\nBETA: live-account verification of new platform adapters is still pending. Do not submit this package for public-store review until that acceptance run is completed."
+    },
+    "ja": {
+      "name": "Qwen Chat Exporter · 会話エクスポーター（ベータ）",
+      "summary": "Qwenの会話履歴・メッセージをPDF、Markdown、TXT、JSONで保存・ダウンロード。無料、透かし・回数制限なし。",
+      "description": "Qwenの選択した会話を読み取り、ブラウザー内で出力・保存・バックアップします。画面に表示された一部だけでなく全履歴を取得し、進捗を表示します。取得済みの履歴は再取得せずに別形式へ変換できます。\n\nPDF印刷、Markdown、TXT、JSON、中国語・英語・日本語に対応します。既存機能は無料で、透かし・出力回数制限・拡張機能アカウントはありません。開発者サーバーへの会話送信はありません。画像や添付資料の元ファイルは同梱しません。\n\nベータ版です。新サービスの実アカウント検証を完了してからストア審査へ提出してください。"
+    }
+  },
+  "permissions": {
+    "storage": "Persist the chosen interface language only.",
+    "scripting": "Run the local exporter after the user invokes the toolbar action.",
+    "host_permissions": "Only chat.qwen.ai; no other AI hosts."
+  },
+  "storeSubmitted": false,
+  "reviewReady": false,
+  "actualPlatformAcceptance": "pending real signed-in account validation"
+}
